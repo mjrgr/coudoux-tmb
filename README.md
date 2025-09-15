@@ -1,4 +1,4 @@
-# 🏔️ Coudoux TMB (Tour du Mont Blanc en 5 jours)
+# 🏔️ Roadbook Coudoux TMB (Tour du Mont Blanc en 5 jours)
 
 *Un défi alpine intense : **151 km**, **9 100 m D+**, traversant **France, Italie et Suisse** en autonomie.*
 
@@ -23,6 +23,10 @@
 ---
 
 ## 🗺️ **Itinéraire Jour par Jour**
+
+
+![Itinéraire](https://contents.mediadecathlon.com/s1219313/k$433434f54d42e48754fa7a4ccc462d2d/1800x0/1620pt1620/3240xcr3240/Tour%20du%20Mont%20Blanc%20en%205%20jours.jpg?format=auto)
+
 
 ### **Jour 1 : Chamonix → Refuge des Prés**
 - **Distance** : 33 km | **D+** : 2 500 m | **Durée** : ~8h30
