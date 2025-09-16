@@ -1,150 +1,263 @@
-# ✅ **Checklist Matériel - Tour du Mont Blanc**
-*Version ultra-légère et optimisée pour l'autonomie.*
+# ✅ **Checklist - Tour du Mont Blanc**
 
----
-## 🎒 **Sac à Dos (15/20L)**
-- [ ] **Sac à dos**
-- [ ] **Housse de pluie** pour sac
-- [ ] **Grand sac poubelle** (50L, pour protéger les affaires)
-
----
-## 💧 **Hydratation**
-- [ ] **Poche à eau 2L** (intégrée au sac)
-- [ ] **Pastilles de purification** (ex: Micropur)
-- [ ] **Thermos** (500ml, pour café/thé)
-
----
-## 👟 **Vêtements (Couches Technique)**
-
-| **Élément**               | **Quantité** | **Remarques**                  |
-|----------------------------|--------------|---------------------------------|
-| T-shirt manches courtes    | 3            | Merino pour éviter les odeurs   |
-| T-shirt manches longues    | 2            | 1 thermique + 1 classique       |
-| Veste micro-polaire        | 1            | Léger et compressible           |
-| Veste imperméable         | 1            | Gore-Tex (ex: Simond Alpinism)  |
-| Veste manches courtes     | 1            | Pour les étapes chaudes         |
-| Pantalon de trekking       | 1            | Convertible en short            |
-| Short                      | 1            | Léger et rapide à sécher        |
-| Sous-vêtements thermiques  | 2            | Pour les nuits froides          |
-| Sous-vêtements classiques  | 3            |                                 |
-| Chaussettes de marche      | 3            | Merino, hauteur cheville        |
-| **Accessoires**            |              |                                 |
-| Bonnet                     | 1            | Laine ou polaire                |
-| Tour de cou                | 1            | Multifonction (écharpe, masque) |
-| Casquette                  | 1            |                                 |
-| Lunettes de soleil         | 1            | Catégorie 4 (UV 100%)           |
-| Gants légers               | 1            | Pour les passages givrés        |
+*Prépa, matos, etc...*
 
 ---
 
-## 👟 **Chaussures & Protection**
+## 📋 PRÉPARATION ADMINISTRATIVE (quelques mois avant)
+
+
+### Réservations obligatoires
+- [ ] **Hébergements** : Réserver TOUS les refuges/gîtes pour 8 personnes
+- [ ] **Transport aller** : Vers/Chamonix
+- [ ] **Transport retour** : Depuis Chamonix
+- [ ] **Transferts locaux** : Bus/navettes si nécessaire
+- [ ] **Parking longue durée** : Si venue en voiture à Chamonix
+
+### Documents et assurances
+- [ ] **Passeport/CNI** valide pour tous (3 pays : France, Suisse, Italie)
+- [ ] **Assurance voyage/trek** avec rapatriement
+- [ ] **Assurance annulation** pour les réservations
+- [ ] **Carte Européenne d'Assurance Maladie** pour tous
+- [ ] **Carnet de vaccination** à jour
+- [ ] **Coordonnées d'urgence** de chaque participant
+
+---
+
+## 🗺️ PLANIFICATION ET NAVIGATION
+
+### Cartes et guides
+- [ ] **Carte IGN 1:25000** du Tour du Mont-Blanc (série 3630 OT, 3531 ET)
+- [ ] **Traces GPX**
+- [ ] **Application GPS** : Visorando, AllTrails, ou IGNrando
+- [ ] **Cartographie offline** téléchargée sur smartphones
+- [ ] **Boussole** (au moins 1 pour le groupe)
+- [ ] **Altimètre** ou montre GPS avec altimètre
+
+### Itinéraire détaillé
+- [ ] **Programme jour par jour** avec horaires
+- [ ] **Points de repère** et difficultés identifiées
+- [ ] **Plans B** en cas de météo difficile
+- [ ] **Numéros d'urgence** locaux (Suisse, France, Italie)
+- [ ] **Points de sortie d'urgence** identifiés
+- [ ] **Pharmacies** sur le parcours
+- [ ] **Distributeurs d'argent** repérés
+
+---
+
+## 💰 FINANCE ET ARGENT
+
+### Budget et devises
+- [ ] **Budget total calculé** par personne
+- [ ] **Euros** en espèces (refuges acceptent peu les cartes)
+- [ ] **Francs suisses** (portion suisse, ~100-150 CHF/pers)
+- [ ] **Cartes bancaires** avec frais à l'étranger vérifiés
+- [ ] **Répartition des coûts groupe** organisée
+- [ ] **Cagnotte commune** pour frais partagés
+
+---
+
+## 🎒 ÉQUIPEMENT PERSONNEL - PORTAGE
+
+### Sac à dos et organisation
+- [ ] **Sac à dos** avec ceinture ventrale confortable
+- [ ] **Housse de pluie** pour sac à dos
+- [ ] **Sacs étanches** pour vêtements/électronique
+- [ ] **Sac de couchage** léger (confort 0°C minimum)
+- [ ] **Serviette microfibre** compacte
+- [ ] **Oreiller gonflable** ou taie à remplir
+
+### Chaussures et chaussettes
 - [ ] **Chaussures de trail**
-- [ ] **Petits crampons**
-- [ ] **Tongs**
+- [ ] **Chaussures de repos** légères (sandales/baskets)
+- [ ] **Chaussettes** techniques (plusieurs paires)
+- [ ] **Chaussettes de rechange** classiques
+- [ ] **Guêtres** (optionnel, mais utile en mai)
+
+---
+
+## 👕 VÊTEMENTS - SYSTÈME 3 COUCHES
+
+### Couche 1 - Sous-vêtements techniques
+- [ ] **Sous-vêtements** techniques (3-4 ensembles)
+- [ ] **T-shirts techniques** manches courtes (2-3)
+- [ ] **T-shirt technique** manches longues (1)
+- [ ] **Collants/leggings** techniques (1-2)
+
+### Couche 2 - Isolation
+- [ ] **Polaire** ou doudoune légère
+- [ ] **Pantalon de randonnée** (2, dont 1 convertible)
+- [ ] **Short de randonnée** (si pantalon non convertible)
+- [ ] **Pull chaud** pour le soir
+
+### Couche 3 - Protection
+- [ ] **Veste imperméable-respirante** (Gore-Tex ou équivalent)
+- [ ] **Pantalon de pluie**
+- [ ] **Coupe-vent** léger
+- [ ] **Gants** chauds + gants fins
+- [ ] **Bonnet** chaud
+- [ ] **Casquette/chapeau** avec protection nuque
+- [ ] **Tour de cou/buff**
+- [ ] **Lunettes de soleil** catégorie 3-4
+- [ ] **Masque protection neige** (si conditions hivernales)
+
+---
+
+## 🏥 TROUSSE DE PREMIERS SECOURS ET SANTÉ
+
+### Médicaments personnels
+- [ ] **Traitements personnels** en cours (double quantité)
+- [ ] **Ordonnances** en français/anglais
+- [ ] **Lunettes de vue** de secours si porteur
+
+### Pharmacie de base (à répartir dans le groupe)
+- [ ] **Antidouleurs** : Paracétamol, Ibuprofène
+- [ ] **Anti-inflammatoire** en gel
+- [ ] **Anti-diarrhéique**
+- [ ] **Réhydratation oral** (sachets)
+- [ ] **Antiseptique**
+- [ ] **Pansements** diverses tailles
+- [ ] **Compresses** stériles
+- [ ] **Bande élastique**
+- [ ] **Épingles de sûreté**
+- [ ] **Ciseaux** petits
+- [ ] **Pince à épiler**
+- [ ] **Thermomètre**
+- [ ] **Couverture de survie** (1 par personne)
+
+### Soins et prévention
+- [ ] **Crème solaire** SPF 50+ (haute montagne)
+- [ ] **Stick à lèvres** avec protection solaire
+- [ ] **Crème réparatrice** (type Biafine)
+- [ ] **Double-peau** ou pansements hydrocolloïdes
+- [ ] **Powder/talc** anti-échauffements
+- [ ] **Répulsif insectes**
+- [ ] **Élastoplast** médical
+- [ ] **Sérum physiologique**
+
+---
+
+## 🔋 MATÉRIEL TECHNIQUE ET ÉLECTRONIQUE
+
+### Navigation et communication
+- [ ] **Smartphone** avec GPS et cartes offline
+- [ ] **Batterie externe** 10000mAh minimum (plusieurs pour le groupe)
+- [ ] **Câbles de recharge**
+- [ ] **Adaptateurs** (Suisse type J)
+- [ ] **Sifflet** de secours
+- [ ] **Lampe frontale** + lampe de secours
+- [ ] **Piles de rechange** pour lampes
+
+### Outils et réparations
+- [ ] **Couteau multifonctions** ou couteau suisse
+- [ ] **Kit de réparation** : aiguilles, fil, rustines
+- [ ] **Duct tape** pour réparations d'urgence
 - [ ] **Lacets de rechange**
-
----
-## 🏕️ ** Nuit **
-- [ ] **Sac de couchage**
-- [ ] **Couverture de survie**
-- [ ] **Fil à linge + pinces**
-- [ ] **Lessive ** 
-
----
-## 🧴 **Hygiène**
-
-| **Élément**            | **Quantité** | **Format**               |
-|------------------------|--------------|--------------------------|
-| Trousse de toilette    | 1            | Étanche                  |
-| Serviette microfibre   | 1            | 60x120 cm                |
-| Shampoing / gel douche | 1            | 100ml (solid shampoo)    |
-| Brosse à dents         | 1            | Pliable                  |
-| Dentifrice             | 1            | 50ml                     |
-| Déodorant              | 1            | Stick                    |
-| Coupe-ongles           | 1            |                          |
-| Petit ciseau           | 1            |                          |
-| Papier toilette        | 1            | Rouleau compact          |
-| Mouchoirs papier       | 1            | Paquet de 10            |
-| Crème solaire SPF50    | 1            | 50ml                     |
-| Stick à lèvres         | 1            |                          |
+- [ ] **Épingles de sûreté**
 
 ---
 
-## ⚕️ **Trousse de Secours**
+## 🍽️ ALIMENTATION ET HYDRATATION
 
-| **Élément**               | **Quantité** | **Remarques**              |
-|----------------------------|--------------|----------------------------|
-| Pansements (Compeed)       | 5            | Ampoules + frottements    |
-| Doliprane (500mg)          | 10           |                            |
-| Efferalgan                 | 6            |                            |
-| Immodium                   | 4            |                            |
-| Spasfon                    | 4            |                            |
-| Gaviscon                   | 6            |                            |
-| Baume du Tigre             | 1            | Rouge (muscles)            |
-| Pince à tiques             | 1            |                            |
-| Couverture de survie       | 1            |                            |
-| **Médicaments perso**      |              |                            |
-| Carte vitale               | 1            | Dans pochette étanche      |
+### Hydratation
+- [ ] **Gourdes/poches à eau** 1,5-2L de capacité totale
+- [ ] **Pastilles purifiantes** ou filtre à eau portable
+- [ ] **Thermos** pour boissons chaudes (optionnel)
 
----
-
-## 🔋 **Électronique**
-- [ ] **Téléphone portable** + étui étanche
-- [ ] **Batterie externe** (10 000mAh)
-- [ ] **Câbles de recharge** (USB-C)
-- [ ] **Prise européenne** (adaptateur si besoin)
-- [ ] **Lampe frontale**
-- [ ] **Briquet**
-- [ ] **Couteau multifonction**
-
----
-## 🍫 **Nourriture (par jour)**
-
-| **Élément**               | **Quantité** | **Exemples**              |
-|----------------------------|--------------|---------------------------|
-| Barres énergétiques        | 3            | Clif Bar, PowerBar        |
-| Fruits secs                | 100g         | Amandes, abricots         |
-| Fromage                    | 50g          | Comté, saucisson sec      |
-| Pâtes déshydratées         | 1            | Repas du soir             |
-| Café soluble               | 2 sachets    |                           |
-| Thé                        | 2 sachets    |                           |
-| **Snacks**                 |              |                           |
-| Chocolat                   | 2 barres     |                            |
-| Biscuits secs              | 4            |                            |
+### Nourriture d'appoint
+- [ ] **Barres énergétiques** (5-6 par jour de marche)
+- [ ] **Fruits secs** et noix
+- [ ] **Chocolat** et sucreries
+- [ ] **Repas lyophilisés** de secours (2-3 par personne)
+- [ ] **Sachets de thé/café** instantané
+- [ ] **Sel** et électrolytes
 
 ---
 
-## 📄 **Documents & Argent**
-- [ ] **Passeport** (ou carte d'identité)
-- [ ] **Carte bleue**
-- [ ] **Espèces** (100-150€ en petites coupures)
-- [ ] **Assurance rapatriement** (copie numérique)
-- [ ] **Réservations refuges** (imprimées ou sur téléphone)
-- [ ] **Carte IGN TMB** (ou appli hors ligne: Fatmap)
+## 🌤️ PRÉPARATION MÉTÉO ET CONDITIONS
+
+### Vérifications avant départ
+- [ ] **Météo 7 jours** consultée avant départ
+- [ ] **Conditions d'enneigement** (crucial en mai!)
+- [ ] **État des sentiers** auprès des offices de tourisme
+- [ ] **Refuges ouverts** confirmés
+- [ ] **Avalanche.org** consulté pour les risques
+- [ ] **Remontées mécaniques** : horaires et tarifs
+- [ ] **Conditions des cols** (Balme, Seigne, etc.)
 
 ---
-## 🎲 **Divers**
-- [ ] **Jeu de cartes** (pour les soirées en refuge)
-- [ ] **Carnets + stylo** (ou appli de notes)
-- [ ] **Appareil photo** (optionnel)
-- [ ] **Cintre** (3, pour sécher les vêtements)
-- [ ] **Corde fine** (5m, pour étendre le linge)
+
+## 👥 ORGANISATION DU GROUPE
+
+### Rôles et responsabilités
+- [ ] **Chef de groupe** désigné
+- [ ] **Responsable navigation** (lecture carte/GPS)
+- [ ] **Responsable premiers secours** (formation recommandée)
+- [ ] **Responsable logistique/résa**
+- [ ] **Serre-file** désigné (ferme la marche)
+- [ ] **Répartition du matériel commun**
+- [ ] **Numéros de téléphone** échangés
+- [ ] **WhatsApp groupe** créé
+- [ ] **Point de contact en France** désigné
+
+### Physique et préparation
+- [ ] **Condition physique** évaluée pour chacun
+- [ ] **Sorties d'entraînement** avec le matériel
+- [ ] **Test du matériel** avant départ
+- [ ] **Rodage des chaussures** ABSOLUMENT ⚠️
+- [ ] **Identification des limitations** de chacun
 
 ---
-## ⚠️ **À Vérifier avant le Départ**
-- [ ] **Poids du sac** (< 7kg sans eau/nourriture)
-- [ ] **Météo** ([Météo France Montagne](https://meteofrance.com/montagne))
-- [ ] **Batteries** (frontale, téléphone, GPS)
-- [ ] **Réservations** (refuges, transports)
-- [ ] **Test équipement** (randonnée de 20km avec dénivelé)
+
+## 📱 CONTACTS D'URGENCE À PROGRAMMER
+
+### Numéros d'urgence
+- [ ] **112** - Urgence européenne générale
+- [ ] **118** - Pompiers France
+- [ ] **144** - Secours Suisse
+- [ ] **118** - Secours Italie
+- [ ] **PGHM Chamonix** : +33 4 50 53 16 89
+- [ ] **Assurance voyage** : numéro contrat
+- [ ] **Ambassades** si groupe étranger
 
 ---
-### 💡 **Conseils Pro**
-1. **Étiqueter** ses affaires avec du ruban adhésif coloré (pour les retrouver en refuge).
-2. **Pré-découper** le papier toilette et le mettre dans un sac ziploc.
-3. **Emporter** un **sac étanche** pour les vêtements sales.
-4. **Pour les chaussures** : Traiter avec un **produit imperméabilisant** avant le départ.
-5. **Jour 4** : Prévoir un **repas chaud** dans le thermos (soupe ou café).
+
+## 🧳 LISTE DERNIÈRE MINUTE (48h avant départ)
+
+### Vérifications finales
+- [ ] **Météo finale** vérifiée
+- [ ] **Refuges confirmés** (appel si possible)
+- [ ] **Poids du sac** optimisé
+- [ ] **Chargement de tous devices**
+- [ ] **Cartes offline** à jour
+- [ ] **Argent liquide** réparti
+- [ ] **Documents** dans pochette étanche
+- [ ] **Kit de survie** vérifié
+- [ ] **Personne de contact** prévenue de l'itinéraire
+- [ ] **Voiture** si applicable (vidanges, pneus, etc.)
+
+### Le jour J
+- [ ] **Petit-déjeuner consistant**
+- [ ] **Gourdes remplies**
+- [ ] **Barres énergétiques** accessibles
+- [ ] **Crème solaire** appliquée
+- [ ] **Photo de groupe** au départ 📸
+- [ ] **Dernière vérification météo**
+- [ ] **Partage de la position** en temps réel activé
+
+---
+
+## 🎯 CONSEILS SPÉCIFIQUES MAI 2026
+
+### Conditions particulières de mai
+- [ ] **Équipement neige** prévu (possible en altitude)
+- [ ] **Crampons légers** ou chaînes dans le groupe
+- [ ] **Vêtements chauds** renforcés
+- [ ] **Plan B itinéraire** si neige importante
+- [ ] **Refuges altitude** : vérifier ouverture
+- [ ] **Heures de marche adaptées** (jours plus longs)
+- [ ] **Fonte des neiges** : attention aux torrents
+
 
 ---
 > *"Un gramme en moins dans le sac, c'est un gramme de bonheur en plus dans les jambes."* — **Proverbe de randonneur**
