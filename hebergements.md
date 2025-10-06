@@ -6,7 +6,7 @@
 
 ## 📋 **Hébergements TMB par étape**
 
-### J1 - Dimanche 24/05/2026 : Chamonix → Refuge des Prés
+### J1 - Dimanche 14/06/2026 : Chamonix → Refuge des Prés
 
 | Nom | Téléphone | Site internet | Altitude | Capacité | Type | Prix (€/pers) | Remarques |
 |-----|-----------|---------------|----------|----------|------|---------------|-----------|
@@ -18,7 +18,7 @@
 
 ---
 
-### J2 - Lundi 25/05/2026 : Refuge des Prés → Courmayeur
+### J2 - Lundi 15/06/2026 : Refuge des Prés → Courmayeur
 
 | Nom | Téléphone | Site internet | Altitude | Capacité | Type | Prix (€/pers) | Remarques |
 |-----|-----------|---------------|----------|----------|------|---------------|-----------|
@@ -32,7 +32,7 @@
 
 ---
 
-### J3 - Mardi 26/05/2026 : Courmayeur → La Fouly
+### J3 - Mardi 16/06/2026 : Courmayeur → La Fouly
 
 | Nom | Téléphone | Site internet | Altitude | Capacité | Type | Prix (€/pers) | Remarques |
 |-----|-----------|---------------|----------|----------|------|---------------|-----------|
@@ -46,7 +46,7 @@
 
 ---
 
-### J4 - Mercredi 27/05/2026 : La Fouly → Col de Balme
+### J4 - Mercredi 17/06/2026 : La Fouly → Col de Balme
 
 | Nom | Téléphone | Site internet | Altitude | Capacité | Type | Prix (€/pers) | Remarques |
 |-----|-----------|---------------|----------|----------|------|---------------|-----------|
@@ -58,7 +58,7 @@
 
 ---
 
-### J5 - Jeudi 28/05/2026 : Col de Balme → Chamonix
+### J5 - Jeudi 18/06/2026 : Col de Balme → Chamonix
 
 | Nom | Téléphone | Site internet | Altitude | Capacité | Type | Prix (€/pers) | Remarques |
 |-----|-----------|---------------|----------|----------|------|---------------|-----------|
@@ -118,7 +118,7 @@
 
 ## ⚠️ Points importants
 
-- **Réservez immédiatement** pour mai 2026
+- **Réservez immédiatement** pour juin 2026
 - **Vérifiez les dates d'ouverture** (enneigement possible en mai)
 - **Confirmez la capacité** pour 8 personnes
 - **Privilégiez la demi-pension** pour le portage léger

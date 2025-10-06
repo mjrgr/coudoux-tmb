@@ -247,9 +247,9 @@
 
 ---
 
-## 🎯 CONSEILS SPÉCIFIQUES MAI 2026
+## 🎯 CONSEILS SPÉCIFIQUES JUIN 2026
 
-### Conditions particulières de mai
+### Conditions particulières de Juin
 - [ ] **Équipement neige** prévu (possible en altitude)
 - [ ] **Crampons légers** ou chaînes dans le groupe
 - [ ] **Vêtements chauds** renforcés
