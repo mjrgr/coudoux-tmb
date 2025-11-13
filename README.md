@@ -31,9 +31,9 @@
 | **Sam 13/06/2026** | Coudoux → Chamonix (arrivée, installation) | Chamonix |
 | **Dim 14/06/2026** | **J1 TMB** : Chamonix → Refuge des Prés | Refuge des Prés |
 | **Lun 15/06/2026** | **J2 TMB** : Refuge des Prés → Courmayeur | Courmayeur |
-| **Mar 16/06/2026** | **J3 TMB** : Courmayeur → La Fouly | La Fouly |
-| **Mer 17/06/2026** | **J4 TMB** : La Fouly → Col de Balme | Col de Balme |
-| **Jeu 18/06/2026** | **J5 TMB** : Col de Balme → Chamonix | Chamonix |
+| **Mar 16/06/2026** | **J3 TMB** : Courmayeur → La Fouly | Gîte de la Fouly |
+| **Mer 17/06/2026** | **J4 TMB** : La Fouly → Trient | Auberge Mont-Blanc |
+| **Jeu 18/06/2026** | **J5 TMB** : Trient → Chamonix | Chamonix |
 | **Ven 19/06/2026** | Chamonix → Coudoux (retour) | - |
 
 ---
@@ -101,6 +101,21 @@
 | 📋 [**Checklist Équipement**](./checklist.md) | 🏠 [**Liste des Hébergements**](./hebergements.md) |
 |----------------------------------------------|---------------------------------------------------|
 | Matériel indispensable pour 5 jours          | Refuges et réservations                           |
+
+---
+ 
+## 🛏️ Hébergements réservés
+
+Nous avons été dans les hébergements suivants pour le groupe (6 personnes) :
+
+- **J0 — Samedi   13/06/2026** : Chamonix **TODO**
+- **J1 — Dimanche 14/06/2026** : Refuge des Prés (réservé)
+- **J2 — Lundi    15/06/2026** : Courmayeur **TODO**
+- **J3 — Mardi    16/06/2026** : Gîte de la Fouly (réservé)
+- **J4 — Mercredi 17/06/2026** : Auberge Mont-Blanc (réservé)
+- **J5 — Jeudi    18/06/2026** : Chamonix **TODO**
+
+> Remarque : détails et contacts des hébergements sont disponibles dans | 🏠 [**Liste des Hébergements**](./hebergements.md) |
 
 ---
 
