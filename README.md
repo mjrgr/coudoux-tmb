@@ -108,12 +108,12 @@
 
 Nous avons été dans les hébergements suivants pour le groupe (6 personnes) :
 
-- **J0 — Samedi   13/06/2026** : Chamonix **TODO**
-- **J1 — Dimanche 14/06/2026** : Refuge des Prés (réservé)
-- **J2 — Lundi    15/06/2026** : Courmayeur **TODO**
-- **J3 — Mardi    16/06/2026** : Gîte de la Fouly (réservé)
-- **J4 — Mercredi 17/06/2026** : Auberge Mont-Blanc (réservé)
-- **J5 — Jeudi    18/06/2026** : Chamonix **TODO**
+- **J0 — Samedi   13/06/2026** : [Chamonix Lodge](https://fr.chamonixlodge.com/) 
+- **J1 — Dimanche 14/06/2026** : [Refuge des Prés](https://www.lerefugedespres.com/fr/)
+- **J2 — Lundi    15/06/2026** : [Hotel Croux Courmayeur](https://www.hotelcroux.it/homepage.asp?l=2)
+- **J3 — Mardi    16/06/2026** : [Gîte de la Fouly](https://gitedelafouly.ch/)
+- **J4 — Mercredi 17/06/2026** : [Auberge Mont-Blanc Trient](https://www.aubergemontblanc.com/)
+- **J5 — Jeudi    18/06/2026** : [Chamonix Lodge](https://fr.chamonixlodge.com/)
 
 > Remarque : détails et contacts des hébergements sont disponibles dans | 🏠 [**Liste des Hébergements**](./hebergements.md) |
 
