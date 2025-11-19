@@ -72,7 +72,7 @@
 - [ ] **Chaussures de repos** légères (sandales/baskets)
 - [ ] **Chaussettes** techniques (plusieurs paires)
 - [ ] **Chaussettes de rechange** classiques
-- [ ] **Guêtres** (optionnel, mais utile en mai)
+- [ ] **Guêtres** (optionnel, mais utile en début de saison / en juin selon conditions)
 
 ---
 
@@ -178,7 +178,7 @@
 
 ### Vérifications avant départ
 - [ ] **Météo 7 jours** consultée avant départ
-- [ ] **Conditions d'enneigement** (crucial en mai!)
+- [ ] **Conditions d'enneigement** (crucial en début de saison / mi-juin)
 - [ ] **État des sentiers** auprès des offices de tourisme
 - [ ] **Refuges ouverts** confirmés
 - [ ] **Avalanche.org** consulté pour les risques
