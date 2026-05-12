@@ -1,263 +1,463 @@
-# ✅ **Checklist - Tour du Mont Blanc**
-
-*Prépa, matos, etc...*
-
----
-
-## 📋 PRÉPARATION ADMINISTRATIVE (quelques mois avant)
+# ✅ **Checklist Optimisée - Tour du Mont Blanc (5 jours)**
 
 
-### Réservations obligatoires
-- [ ] **Hébergements** : Réserver TOUS les refuges/gîtes pour 8 personnes
-- [ ] **Transport aller** : Vers/Chamonix
-- [ ] **Transport retour** : Depuis Chamonix
-- [ ] **Transferts locaux** : Bus/navettes si nécessaire
-- [ ] **Parking longue durée** : Si venue en voiture à Chamonix
-
-### Documents et assurances
-- [ ] **Passeport/CNI** valide pour tous (3 pays : France, Suisse, Italie)
-- [ ] **Assurance voyage/trek** avec rapatriement
-- [ ] **Assurance annulation** pour les réservations
-- [ ] **Carte Européenne d'Assurance Maladie** pour tous
-- [ ] **Carnet de vaccination** à jour
-- [ ] **Coordonnées d'urgence** de chaque participant
+Checklist complète et optimisée pour le Tour du Mont Blanc (TMB) en 5 jours en refuges. Cette liste priorise la légèreté, la simplicité et l'efficacité terrain.
 
 ---
 
-## 🗺️ PLANIFICATION ET NAVIGATION
+## 📋 Table des matières
 
-### Cartes et guides
-- [ ] **Carte IGN 1:25000** du Tour du Mont-Blanc (série 3630 OT, 3531 ET)
-- [ ] **Traces GPX**
-- [ ] **Application GPS** : Visorando, AllTrails, ou IGNrando
-- [ ] **Cartographie offline** téléchargée sur smartphones
-- [ ] **Boussole** (au moins 1 pour le groupe)
-- [ ] **Altimètre** ou montre GPS avec altimètre
-
-### Itinéraire détaillé
-- [ ] **Programme jour par jour** avec horaires
-- [ ] **Points de repère** et difficultés identifiées
-- [ ] **Plans B** en cas de météo difficile
-- [ ] **Numéros d'urgence** locaux (Suisse, France, Italie)
-- [ ] **Points de sortie d'urgence** identifiés
-- [ ] **Pharmacies** sur le parcours
-- [ ] **Distributeurs d'argent** repérés
+- [Principes clés](#-principes-clés)
+- [Objectif poids](#-objectif-poids)
+- [Vêtements & Chaussures](#-vêtements--chaussures)
+- [Équipement & Matériel](#-équipement--matériel)
+- [Hygiène & Toilettes](#-hygiène--toilettes)
+- [Santé & Secours](#-santé--secours)
+- [Hydratation & Nutrition](#-hydratation--nutrition)
+- [Documents & Électronique](#-documents--électronique)
+- [Autres / Divers](#-autres--divers)
+- [Stratégie par jour](#-stratégie-par-jour)
+- [Optimisations clés](#-optimisations-clés)
+- [Vérification finale](#-vérification-finale)
+- [Ressources utiles](#-ressources-utiles)
 
 ---
 
-## 💰 FINANCE ET ARGENT
+## 🎯 Principes clés
 
-### Budget et devises
-- [ ] **Budget total calculé** par personne
-- [ ] **Euros** en espèces (refuges acceptent peu les cartes)
-- [ ] **Francs suisses** (portion suisse, ~100-150 CHF/pers)
-- [ ] **Cartes bancaires** avec frais à l'étranger vérifiés
-- [ ] **Répartition des coûts groupe** organisée
-- [ ] **Cagnotte commune** pour frais partagés
+### Philosophie
 
----
+Cette checklist est basée sur une réalité simple : **vous dormez en refuge 5 nuits**. Cela signifie :
 
-## 🎒 ÉQUIPEMENT PERSONNEL - PORTAGE
+✅ Les refuges fournissent: douche, savon, papier toilette, petit-déjeuner, dîner  
+✅ Vous n'êtes pas autonome → pas besoin d'équipement survie complet  
+✅ Chaque 100g économisé = gain réel sur 151km + 9100m D+  
+✅ La légèreté = la performance  
 
-### Sac à dos et organisation
-- [ ] **Sac à dos** avec ceinture ventrale confortable
-- [ ] **Housse de pluie** pour sac à dos
-- [ ] **Sacs étanches** pour vêtements/électronique
-- [ ] **Sac de couchage** léger (confort 0°C minimum)
-- [ ] **Serviette microfibre** compacte
-- [ ] **Oreiller gonflable** ou taie à remplir
+### Règles d'or
 
-### Chaussures et chaussettes
-- [ ] **Chaussures de trail**
-- [ ] **Chaussures de repos** légères (sandales/baskets)
-- [ ] **Chaussettes** techniques (plusieurs paires)
-- [ ] **Chaussettes de rechange** classiques
-- [ ] **Guêtres** (optionnel, mais utile en début de saison / en juin selon conditions)
+1. **Poids = fatigue.** Cible stricte: < 10kg sac vide + contenu
+2. **Doublons = ennemis.** 2 t-shirts suffisent, 2 chaussettes suffisent
+3. **Eau = très lourd.** Remplir en route (1L), pas 2L dans le sac
+4. **Refuges = services.** Douche chaque soir → moins de vêtements
+5. **Test obligatoire.** Chaussures: 30km minimum avant départ
 
 ---
 
-## 👕 VÊTEMENTS - SYSTÈME 3 COUCHES
+## ⚖️ Objectif poids
 
-### Couche 1 - Sous-vêtements techniques
-- [ ] **Sous-vêtements** techniques (3-4 ensembles)
-- [ ] **T-shirts techniques** manches courtes (2-3)
-- [ ] **T-shirt technique** manches longues (1)
-- [ ] **Collants/leggings** techniques (1-2)
+| Catégorie | Cible | Réel |
+|-----------|-------|------|
+| Vêtements (à porter) | 2-2.5kg | ____ |
+| Équipement | 2-2.5kg | ____ |
+| Nourriture (snacks) | 1-1.5kg | ____ |
+| Hygiène + santé | 0.5kg | ____ |
+| **TOTAL SMAX VIDE + CONTENU** | **< 10kg** | **____** |
 
-### Couche 2 - Isolation
-- [ ] **Polaire** ou doudoune légère
-- [ ] **Pantalon de randonnée** (2, dont 1 convertible)
-- [ ] **Short de randonnée** (si pantalon non convertible)
-- [ ] **Pull chaud** pour le soir
-
-### Couche 3 - Protection
-- [ ] **Veste imperméable-respirante** (Gore-Tex ou équivalent)
-- [ ] **Pantalon de pluie**
-- [ ] **Coupe-vent** léger
-- [ ] **Gants** chauds + gants fins
-- [ ] **Bonnet** chaud
-- [ ] **Casquette/chapeau** avec protection nuque
-- [ ] **Tour de cou/buff**
-- [ ] **Lunettes de soleil** catégorie 3-4
-- [ ] **Masque protection neige** (si conditions hivernales)
+**Réalité:** 8-10kg de sac total = confortable pour 5 jours.
 
 ---
 
-## 🏥 TROUSSE DE PREMIERS SECOURS ET SANTÉ
+## 👕 Vêtements & Chaussures
 
-### Médicaments personnels
-- [ ] **Traitements personnels** en cours (double quantité)
-- [ ] **Ordonnances** en français/anglais
-- [ ] **Lunettes de vue** de secours si porteur
+### À PORTER le jour du départ
 
-### Pharmacie de base (à répartir dans le groupe)
-- [ ] **Antidouleurs** : Paracétamol, Ibuprofène
-- [ ] **Anti-inflammatoire** en gel
-- [ ] **Anti-diarrhéique**
-- [ ] **Réhydratation oral** (sachets)
-- [ ] **Antiseptique**
-- [ ] **Pansements** diverses tailles
-- [ ] **Compresses** stériles
-- [ ] **Bande élastique**
-- [ ] **Épingles de sûreté**
-- [ ] **Ciseaux** petits
-- [ ] **Pince à épiler**
-- [ ] **Thermomètre**
-- [ ] **Couverture de survie** (1 par personne)
+- [ ] Chaussures rando testées (1 paire)
+- [ ] Chaussettes rando (1 paire)
+- [ ] Pantalon / short de rando (1)
+- [ ] T-shirt technique (1)
+- [ ] Veste imperméable (1)
 
-### Soins et prévention
-- [ ] **Crème solaire** SPF 50+ (haute montagne)
-- [ ] **Stick à lèvres** avec protection solaire
-- [ ] **Crème réparatrice** (type Biafine)
-- [ ] **Double-peau** ou pansements hydrocolloïdes
-- [ ] **Powder/talc** anti-échauffements
-- [ ] **Répulsif insectes**
-- [ ] **Élastoplast** médical
-- [ ] **Sérum physiologique**
+### Dans le sac (stricte minimum)
 
----
+- [ ] T-shirt technique (1 - pour alterner, laver chaque soir)
+- [ ] Chaussettes rando (2 paires - laver chaque soir)
+- [ ] Sous-vêtements chauds (1 - merino wool > synthétique)
+- [ ] Caleçons / culottes (3)
+- [ ] Bonnet merino (1 - ultra-léger, sèche bien)
+- [ ] Gants légers (1)
+- [ ] Sandalettes / chaussons camp (1 paire - pour refuge)
 
-## 🔋 MATÉRIEL TECHNIQUE ET ÉLECTRONIQUE
+### À LAISSER DANS LA VOITURE (Chamonix)
 
-### Navigation et communication
-- [ ] **Smartphone** avec GPS et cartes offline
-- [ ] **Batterie externe** 10000mAh minimum (plusieurs pour le groupe)
-- [ ] **Câbles de recharge**
-- [ ] **Adaptateurs** (Suisse type J)
-- [ ] **Sifflet** de secours
-- [ ] **Lampe frontale** + lampe de secours
-- [ ] **Piles de rechange** pour lampes
+- Habits civils complets (cherche pas à être beau en refuge!)
+- Chaussures de ville
+- Vêtements supplémentaires
 
-### Outils et réparations
-- [ ] **Couteau multifonctions** ou couteau suisse
-- [ ] **Kit de réparation** : aiguilles, fil, rustines
-- [ ] **Duct tape** pour réparations d'urgence
-- [ ] **Lacets de rechange**
-- [ ] **Épingles de sûreté**
+### Matière importante
+
+- **Merino wool**: meilleur choix (sèche vite, pas mauvaises odeurs)
+- **Synthétique sec-rapide**: OK aussi
+- **Éviter coton**: lourd, reste humide
 
 ---
 
-## 🍽️ ALIMENTATION ET HYDRATATION
+## 🎒 Équipement & Matériel
+
+### Sac & transport
+
+- [ ] **Sac à dos ultralight 45-55L** (cible: 1.2-1.5kg)
+  - Options: Decathlon, Forclaz, ou marques légères
+  - Importance: chaque gramme compte!
+- [ ] Housse pluie intégrée ou légère séparée
+
+### Navigation & sécurité
+
+- [ ] Bâtons pliables (300-400g pair)
+- [ ] Traces GPS téléchargées offline (GPX, Komoot, AllTrails)
+- [ ] Cartes IGN papier
+- [ ] Couteau suisse mini (30g)
+- [ ] Cordelette paracorde 5m (optionnel)
+- [ ] Sifflet de secours (optionnel si intégré au sac)
+
+### Conditions montagne
+
+- [ ] Crampons (si météo indique neige - sinon skip)
+  - Vérifier prévisions 1 semaine avant
+- [ ] Couverture de survie (optionnel pour refuge)
+
+### Éclairage
+
+- [ ] Lampe frontale légère + piles ou batterie chargée
+  - Réalité: J4 départ 5h30 → retour avant 20h
+  - Utilité réelle: très faible en refuge
+
+---
+
+## 🧼 Hygiène & Toilettes
+
+**Les refuges fournissent:** douche, savon, papier toilette
+
+Coût: **< 500g total**
+
+### Hygiène personnelle
+
+- [ ] **Savon 2-en-1 mini** (20g, Weleda bar, exemple)
+  - Utilisation: cheveux + corps
+- [ ] Brosse à dents + dentifrice mini (30g total)
+- [ ] Serviette microfibre ultralight (60g, Decathlon)
+
+### Soleil & lèvres
+
+- [ ] **Crème solaire stick SPF 50** (30g, compact)
+  - Bien mieux qu'en tube
+- [ ] Baume lèvres SPF (10g)
+
+### Salle de bain
+
+- [ ] Papier toilette + petit sac imperméable (pour outside)
+  - Refuge fourni généralement
+- [ ] **Pas de déodorant** → transpiration = normale
+- [ ] **Pas de gel mains** → eau suffît
+
+---
+
+## 🏥 Santé & Secours
+
+**Minimal viable:** 200g
+
+### Traitement plaies
+
+- [ ] Pansements assortis (8, petite boîte)
+- [ ] Sparadrap 1cm × 2m (léger)
+- [ ] Pommade anti-ampoules (tube mini 15g) - CRUCIAL
+- [ ] Crème anti-inflammatoire (tube mini 20g)
+
+### Médicaments
+
+- [ ] Paracétamol (5 comprimés)
+- [ ] Ibuprofène (5 comprimés)
+- [ ] Anti-diarrhée (3 comprimés)
+- [ ] Électrolytes (5 comprimés)
+
+### À NE PAS APPORTER
+
+- ~~Gaze stérile~~ (sparadrap suffit)
+- ~~Thermomètre~~ (inutile)
+- ~~Vitamine C~~ (fruits secs suffisent)
+- ~~Pince à épiler~~ (très optionnel)
+
+---
+
+## 💧 Hydratation & Nutrition
+
+**Les refuges fournissent:** petit-déjeuner et dîner
+
+Vous n'avez besoin que de **snacks énergétiques pour la marche**.
 
 ### Hydratation
-- [ ] **Gourdes/poches à eau** 1,5-2L de capacité totale
-- [ ] **Pastilles purifiantes** ou filtre à eau portable
-- [ ] **Thermos** pour boissons chaudes (optionnel)
 
-### Nourriture d'appoint
-- [ ] **Barres énergétiques** (5-6 par jour de marche)
-- [ ] **Fruits secs** et noix
-- [ ] **Chocolat** et sucreries
-- [ ] **Repas lyophilisés** de secours (2-3 par personne)
-- [ ] **Sachets de thé/café** instantané
-- [ ] **Sel** et électrolytes
+- [ ] **Gourde 1L seulement** (pas 2L!) + filtre
+  - Économie: -500g vs 2L
+  - Stratégie: remplir aux points d'eau en route
+  - Points d'eau: refuge, fontaines itinéraire
 
----
+### Snacks marche
 
-## 🌤️ PRÉPARATION MÉTÉO ET CONDITIONS
+- [ ] Barres énergétiques (5 max)
+- [ ] Fruits secs: raisins (200g), abricots (100g)
+- [ ] Amandes (150g) - plus légères que noix
+- [ ] Gel énergétique (2-3 pour J4 surtout)
 
-### Vérifications avant départ
-- [ ] **Météo 7 jours** consultée avant départ
-- [ ] **Conditions d'enneigement** (crucial en début de saison / mi-juin)
-- [ ] **État des sentiers** auprès des offices de tourisme
-- [ ] **Refuges ouverts** confirmés
-- [ ] **Avalanche.org** consulté pour les risques
-- [ ] **Remontées mécaniques** : horaires et tarifs
-- [ ] **Conditions des cols** (Balme, Seigne, etc.)
+### Électrolytes
 
----
+- [ ] **Électrolytes en poudre** (3-5 sachets)
+  - Plus important que barres énergétiques
+  - Remplace sels perdus en transpiration
+- [ ] Comprimés glucose (optionnel)
 
-## 👥 ORGANISATION DU GROUPE
+### Chocolat & moral
 
-### Rôles et responsabilités
-- [ ] **Chef de groupe** désigné
-- [ ] **Responsable navigation** (lecture carte/GPS)
-- [ ] **Responsable premiers secours** (formation recommandée)
-- [ ] **Responsable logistique/résa**
-- [ ] **Serre-file** désigné (ferme la marche)
-- [ ] **Répartition du matériel commun**
-- [ ] **Numéros de téléphone** échangés
-- [ ] **WhatsApp groupe** créé
-- [ ] **Point de contact en France** désigné
+- [ ] Chocolat noir 70% (1 barre pour morale)
 
-### Physique et préparation
-- [ ] **Condition physique** évaluée pour chacun
-- [ ] **Sorties d'entraînement** avec le matériel
-- [ ] **Test du matériel** avant départ
-- [ ] **Rodage des chaussures** ABSOLUMENT ⚠️
-- [ ] **Identification des limitations** de chacun
+### À NE PAS APPORTER
+
+- ~~Repas lyophilisés~~ (refuges fourni)
+- ~~Sucre en poudre~~ (lourd, électrolytes suffisent)
+- ~~Bonbons énergétiques~~ (barre énergétique + fruit sec = meilleur)
 
 ---
 
-## 📱 CONTACTS D'URGENCE À PROGRAMMER
+## 📱 Documents & Électronique
 
-### Numéros d'urgence
-- [ ] **112** - Urgence européenne générale
-- [ ] **118** - Pompiers France
-- [ ] **144** - Secours Suisse
-- [ ] **118** - Secours Italie
-- [ ] **PGHM Chamonix** : +33 4 50 53 16 89
-- [ ] **Assurance voyage** : numéro contrat
-- [ ] **Ambassades** si groupe étranger
+### Essentiels
 
----
+- [ ] **Passeport / Carte identité** (un par personne)
+- [ ] **Assurance rapatriement montagne** (doc papier ou photo)
+  - Vérifier: rapatriement hélicoptère inclus?
+  - Exemple: Chapka, Europ Assistance
+- [ ] Téléphone portable chargé
+- [ ] Batterie externe petit modèle (150g max)
+  - Optionnel si refuge a prise
 
-## 🧳 LISTE DERNIÈRE MINUTE (48h avant départ)
+### Navigation
 
-### Vérifications finales
-- [ ] **Météo finale** vérifiée
-- [ ] **Refuges confirmés** (appel si possible)
-- [ ] **Poids du sac** optimisé
-- [ ] **Chargement de tous devices**
-- [ ] **Cartes offline** à jour
-- [ ] **Argent liquide** réparti
-- [ ] **Documents** dans pochette étanche
-- [ ] **Kit de survie** vérifié
-- [ ] **Personne de contact** prévenue de l'itinéraire
-- [ ] **Voiture** si applicable (vidanges, pneus, etc.)
+- [ ] **Traces GPS téléchargées offline**
+  - Apps: Komoot (meilleure), Fatmap, AllTrails, Maps.me
+  - Télécharger sur TOUS les téléphones
+- [ ] Cartes IGN papier
+- [ ] Petit carnet + stylo (notes, contacts urgence)
 
-### Le jour J
-- [ ] **Petit-déjeuner consistant**
-- [ ] **Gourdes remplies**
-- [ ] **Barres énergétiques** accessibles
-- [ ] **Crème solaire** appliquée
-- [ ] **Photo de groupe** au départ 📸
-- [ ] **Dernière vérification météo**
-- [ ] **Partage de la position** en temps réel activé
+### À NE PAS APPORTER
+
+- ~~Appareil photo dédié~~ (téléphone suffit + résolution good)
+- ~~Câbles de rechange~~ (1 ou 2 partagé)
+- ~~Chargeur secteur~~ (refuges ont prise)
 
 ---
 
-## 🎯 CONSEILS SPÉCIFIQUES JUIN 2026
+## 🎁 Autres / Divers
 
-### Conditions particulières de Juin
-- [ ] **Équipement neige** prévu (possible en altitude)
-- [ ] **Crampons légers** ou chaînes dans le groupe
-- [ ] **Vêtements chauds** renforcés
-- [ ] **Plan B itinéraire** si neige importante
-- [ ] **Refuges altitude** : vérifier ouverture
-- [ ] **Heures de marche adaptées** (jours plus longs)
-- [ ] **Fonte des neiges** : attention aux torrents
+### Essentiels divers
 
+- [ ] Lunettes de soleil (important en altitude)
+- [ ] 2 sacs imperméables légers (pour linge humide)
+- [ ] 3 sacs à ordures (pas 10! refuge collecte)
+- [ ] Épingles de sûreté (2)
+
+### À LAISSER À CHAMONIX
+
+- ~~Maillot de bain~~ (pas piscine refuge, pas temps)
+- ~~Vêtements civils complets~~ (inutile)
+- ~~Bouteille pétillante~~ (acheter à Chamonix pour arrivée)
+- ~~Chaussures après-rando~~ (à Chamonix J5)
+- ~~Serviette supplémentaire~~ (une suffit)
 
 ---
-> *"Un gramme en moins dans le sac, c'est un gramme de bonheur en plus dans les jambes."* — **Proverbe de randonneur**
+
+## 📈 Gains poids vs checklist standard
+
+| Article | Standard | Optimisé | Gain |
+|---------|----------|----------|------|
+| Chaussettes | 5 paires | 2 paires | -100g |
+| Gourde | 2L remplie | 1L | -500g |
+| Sac | 2kg | 1.2kg | -800g |
+| Barres | 10 | 5 | -200g |
+| Hygiène | 1kg | 300g | -700g |
+| Vêtements | 5kg | 3kg | -2kg |
+| Lampe | 250g | skip | -250g |
+| **TOTAL** | **~12kg** | **~8kg** | **-4kg** 🎉 |
+
+---
+
+## 🎯 Stratégie par jour
+
+### J0 (Samedi 13/06) - Coudoux → Chamonix
+
+**Action:** Laissez affaires civiles à Chamonix Lodge (coffre)
+- Habits civils complets
+- Chaussures de ville
+- Charge extra (toilettes complet, etc.)
+
+### J1-J5 (Dimanche-Jeudi)
+
+**Routine chaque soir en refuge:**
+1. Douche chaud (enfin!)
+2. Laver t-shirt + chaussettes à la main
+3. Étendre pour sécher (chauffage refuge)
+4. Recharger téléphone / batterie externe
+
+### J4 (Mercredi 17/06) - Étape reine
+
+**Départ très tôt (5h30-6h) → retour avant 20h**
+- Lampe frontale = inutile
+- Petit-déj énergétique massif
+- Électrolytes en extra
+
+### J6 (Vendredi 19/06) - Chamonix → Coudoux
+
+**Action:** Récupérez affaires au coffre, retour léger
+
+---
+
+## ⚡ Optimisations clés (vs erreurs courantes)
+
+### ❌ Erreur: apporter 2L d'eau
+
+**→ ✅ Solution: 1L gourde, remplissez en route**
+- Poids économisé: 500g
+- Réalité: points d'eau partout (refuges, fontaines)
+
+### ❌ Erreur: 5 paires chaussettes
+
+**→ ✅ Solution: 2 paires, laver chaque soir**
+- Poids économisé: 100g
+- Réalité: refuge = douche + chauffage pour séchage
+
+### ❌ Erreur: sac 60L + tout le resto
+
+**→ ✅ Solution: ultralight 45-55L**
+- Poids économisé: 800g
+- Effet: limitation force autolimitation (bon!)
+
+### ❌ Erreur: hygiène complète (déodorant, gel mains, etc.)
+
+**→ ✅ Solution: savon mini, c'est tout**
+- Poids économisé: 700g
+- Réalité: transpiration = normale montagne, douche refuge chaque soir
+
+### ❌ Erreur: lampe frontale obligatoire
+
+**→ ✅ Solution: optionnel si départ 5h30**
+- Poids économisé: 250g
+- Réalité: J4 retour avant 20h, autres jours avant 18h
+
+### ❌ Erreur: 10 barres énergétiques
+
+**→ ✅ Solution: 5 barres + fruits secs + électrolytes**
+- Poids économisé: 200g
+- Avantage: fruits secs > barres (meilleur goût + moins synthétique)
+
+---
+
+## 🔍 Vérification finale (une semaine avant)
+
+- [ ] Poids total sac < 10kg (pesée obligatoire!)
+- [ ] Chaussures testées 25km minimum
+- [ ] GPS offline téléchargé (Komoot, pas juste en ligne!)
+- [ ] Batterie téléphone testée (8h+ d'autonomie)
+- [ ] Batterie externe chargée
+- [ ] Refuges confirmés (appel confirmation)
+- [ ] Assurance rapatriement vérifiée
+- [ ] Réservation hôtel Chamonix (J0 & J5) confirmée
+- [ ] Traces papier imprimées (2 copies)
+- [ ] Contacts urgence notés (voir fiche secours)
+
+---
+
+## 🚨 Points critiques J4
+
+**Fenêtre d'Arpett**
+
+- [ ] Départ vers 6h (impératif!)
+- [ ] Petit-déj énergétique
+- [ ] Météo vérifiée la veille
+- [ ] Plan B: **Col de la Forclaz** (alternative sûre, +2h)
+  - Si mauvais temps → pas débat, prenez Forclaz
+  - Retour garantit, moins tech, plus sûr
+- [ ] Électrolytes en extra
+- [ ] Gels énergétiques (2-3)
+
+---
+
+## 📚 Ressources utiles
+
+### Itinéraires & cartes
+
+- [VisugGPX TMB](https://www.visugpx.com/YYtOE8PUpF)
+- [IGN Rando](https://ignrando.fr/fr/parcours/1128056-t-m-b)
+- [Komoot TMB](https://komoot.com)
+
+### Météo montagne
+
+- [Météo France Montagne](https://meteofrance.com/montagne)
+- [Météo Suisse](https://www.meteosuisse.admin.ch/)
+- [AINM - Neige/avalanches](https://www.meteoalpes.com/)
+
+### Refuges & Hébergement
+
+- [Gîtes de France](https://www.gites-de-france.com/)
+- [Refuges.info](https://www.refuges.info/)
+- [Appels directs refuges (voir doc team)](./contacts-refuges.md)
+
+### Équipement ultralight
+
+- [Decathlon trail](https://www.decathlon.fr/)
+- [Ultralight Gear Reviews](https://www.reddit.com/r/CampingGear/)
+- [Lighter Pack](https://lighterpack.com/)
+
+### Préparation physique
+
+- **4-6 semaines avant**: 2-3 sorties montagne progressives
+- **2 semaines avant**: repos augmenté, hydratation renforcée
+- **1 semaine avant**: marche easy 1-2h/jour (jambes)
+
+---
+
+## 📞 Contacts d'urgence
+
+| Situation | Numéro | Notes |
+|-----------|--------|-------|
+| **Urgence (tous pays)** | 112 | Europe entière |
+| PGHM Chamonix | +33 4 50 53 16 89 | Montagne France |
+| Sauvetage Italie | 118 ou +39 0165 260233 | Mont Blanc côté IT |
+| Secours Suisse | 1414 | Air rescue Suisse |
+
+---
+
+## 💡 Conseil final du guide
+
+> **La légèreté est une stratégie, pas une obsession.**
+>
+> Chaque gramme compte sur 151km + 9100m D+. Mais ne skippez pas un article par pure légèreté si c'est utile (exemple: pommade anti-ampoules = 15g CRITIQUE).
+>
+> **L'équilibre:** 80% des bénéfices avec 20% des articles essentiels.
+>
+> **Bon trek!** 🏔️
+
+---
+
+## ✅ Checklist finale avant départ
+
+```markdown
+## JOUR DU DÉPART (J-0)
+
+- [ ] Sac pesé < 10kg
+- [ ] Téléphone chargé 100%
+- [ ] Batterie externe chargée
+- [ ] Traces GPS offline téléchargées
+- [ ] Documents dans sac (passeport, assurance)
+- [ ] Pas d'oublis (vérifier chaussettes!)
+- [ ] Petit-déj bon
+- [ ] Repos 8h minimum nuit précédente
+- [ ] Météo vérifiée (J1)
+- [ ] Refuges confirmés par SMS/appel
+- [ ] Groupe intact (6 personnes)
+- [ ] Moral ✅
+
+```
+
+---
+
+**Édition: Team Coudoux • Juin 2026**  
+*Dernière mise à jour: mai 2026*
