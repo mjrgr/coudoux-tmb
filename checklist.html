@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Checklist TMB — Tour du Mont Blanc (5 jours)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+  // Apply theme ASAP to avoid FOUC
+  (function() {
+    try {
+      const saved = localStorage.getItem('tmb-theme');
+      const theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) { /* default to dark */ }
+  })();
+</script>
+<style>
+  /* ============ DARK THEME (default) ============ */
+  :root,
+  [data-theme="dark"] {
+    --bg: #14181c;
+    --bg-2: #1c2228;
+    --paper: #1a1f25;
+    --ink: #f2ede0;          /* blanc cassé chaud — plus clair */
+    --ink-soft: #c4bfb0;
+    --ink-mute: #847e6f;
+    --line: #2c333b;
+    --line-soft: #232a31;
+    --glacier: #6fb3d6;
+    --glacier-soft: rgba(111, 179, 214, 0.12);
+    --accent: #dc4f4f;       /* rouge alpin — nouveau */
+    --accent-soft: rgba(220, 79, 79, 0.13);
+    --pine: #8db38a;
+    --done: #cdc7b8;         /* gris désaturé chaud — proche blanc */
+    --shadow: 0 1px 0 rgba(0,0,0,0.2), 0 16px 40px -20px rgba(0,0,0,0.6);
+    --check-on-fill: var(--bg);
+    --radius: 14px;
+  }
+
+  /* ============ LIGHT THEME ============ */
+  [data-theme="light"] {
+    --bg: #f4f1ea;
+    --bg-2: #ebe6db;
+    --paper: #fbf8f1;
+    --ink: #1e2a32;
+    --ink-soft: #4a5862;
+    --ink-mute: #7c8a93;
+    --line: #d8d1c1;
+    --line-soft: #e7e0d0;
+    --glacier: #3b6b86;
+    --glacier-soft: rgba(59, 107, 134, 0.12);
+    --accent: #c83a3a;       /* rouge alpin profond sur fond clair */
+    --accent-soft: rgba(200, 58, 58, 0.10);
+    --pine: #3f5d3e;
+    --done: #a39d8e;
+    --shadow: 0 1px 0 rgba(30,42,50,0.04), 0 12px 32px -16px rgba(30,42,50,0.18);
+    --check-on-fill: #ffffff;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  [data-theme="dark"] body {
+    background-image:
+      radial-gradient(circle at 10% 0%, rgba(111, 179, 214, 0.06) 0%, transparent 45%),
+      radial-gradient(circle at 100% 100%, rgba(220, 79, 79, 0.05) 0%, transparent 50%);
+  }
+  [data-theme="light"] body {
+    background-image:
+      radial-gradient(circle at 10% 0%, rgba(59, 107, 134, 0.05) 0%, transparent 45%),
+      radial-gradient(circle at 100% 100%, rgba(200, 58, 58, 0.04) 0%, transparent 50%);
+  }
+
+  /* ===== HEADER ===== */
+  header.hero {
+    padding: 56px 24px 32px;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(180deg, var(--paper) 0%, var(--bg) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(135deg, transparent 40%, rgba(111, 179, 214, 0.04) 50%, transparent 60%);
+    pointer-events: none;
+  }
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(36px, 6vw, 56px);
+    line-height: 1.05;
+    margin: 0 0 14px;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+  }
+  h1 em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--glacier);
+  }
+  .subtitle {
+    color: var(--ink-soft);
+    font-size: 16px;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .meta-line {
+    margin-top: 22px;
+    display: inline-flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-mute);
+    letter-spacing: 0.05em;
+  }
+  .meta-line span b { color: var(--ink); font-weight: 500; }
+
+  /* ===== PROGRESS STICKY ===== */
+  .progress-bar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .progress-track {
+    flex: 1;
+    height: 6px;
+    background: var(--line);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    min-width: 60px;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--glacier) 0%, var(--pine) 100%);
+    width: 0%;
+    transition: width 0.4s cubic-bezier(0.4,0,0.2,1);
+    border-radius: 3px;
+  }
+  [data-theme="dark"] .progress-fill {
+    box-shadow: 0 0 12px rgba(111, 179, 214, 0.3);
+  }
+  .progress-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .progress-text b { color: var(--ink); }
+
+  .toolbar { display: flex; gap: 6px; align-items: center; }
+
+  .icon-btn,
+  .reset-btn {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--ink-soft);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-btn {
+    width: 32px; height: 32px;
+    padding: 0;
+  }
+  .icon-btn svg {
+    width: 16px; height: 16px;
+  }
+  .reset-btn { padding: 6px 12px; }
+
+  .icon-btn:hover,
+  .reset-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-soft);
+  }
+
+  /* Theme toggle: show only the right icon */
+  [data-theme="dark"] .icon-sun { display: inline-block; }
+  [data-theme="dark"] .icon-moon { display: none; }
+  [data-theme="light"] .icon-sun { display: none; }
+  [data-theme="light"] .icon-moon { display: inline-block; }
+
+  /* ===== MAIN ===== */
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  /* ===== SECTIONS ===== */
+  .section {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    margin-bottom: 24px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: background 0.3s ease, border-color 0.3s ease;
+  }
+  .section-header {
+    padding: 20px 24px 16px;
+    border-bottom: 1px solid var(--line-soft);
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .section-number {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-mute);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+  }
+  .section-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    flex: 1;
+  }
+  .section-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-mute);
+    background: var(--bg-2);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid var(--line);
+  }
+  .section-count.complete {
+    background: var(--glacier-soft);
+    color: var(--glacier);
+    border-color: var(--glacier);
+  }
+  .section-body { padding: 8px 24px 20px; }
+
+  /* ===== SUBGROUPS ===== */
+  .subgroup { margin-top: 14px; }
+  .subgroup-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    margin: 16px 0 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px dashed var(--line);
+  }
+  .subgroup-note {
+    font-size: 13px;
+    color: var(--ink-mute);
+    font-style: italic;
+    margin: 0 0 10px;
+  }
+
+  /* ===== ITEMS ===== */
+  .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 8px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s;
+    border-radius: 6px;
+    margin: 0 -8px;
+  }
+  .item:hover { background: var(--bg-2); }
+  .item input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    border: 1.5px solid var(--line);
+    border-radius: 5px;
+    background: var(--bg);
+    cursor: pointer;
+    margin: 1px 0 0 0;
+    position: relative;
+    transition: all 0.2s;
+    flex-shrink: 0;
+  }
+  .item input[type="checkbox"]:hover {
+    border-color: var(--glacier);
+  }
+  .item input[type="checkbox"]:checked {
+    background: var(--glacier);
+    border-color: var(--glacier);
+  }
+  .item input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid var(--check-on-fill);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  .item-label {
+    flex: 1;
+    font-size: 15px;
+    color: var(--ink);
+    transition: all 0.25s;
+    line-height: 1.5;
+  }
+  .item-label .hint {
+    display: block;
+    font-size: 13px;
+    color: var(--ink-mute);
+    margin-top: 2px;
+    font-style: italic;
+  }
+  .item-label strong { color: var(--ink); font-weight: 600; }
+  .item.checked .item-label {
+    text-decoration: line-through;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: var(--done);
+    color: var(--done);
+    opacity: 0.7;
+  }
+  .item.checked .item-label .hint { color: var(--done); opacity: 0.85; }
+  .item.checked .item-label strong { color: var(--done); }
+
+  /* ===== CALLOUT ===== */
+  .callout {
+    background: var(--glacier-soft);
+    border-left: 3px solid var(--glacier);
+    padding: 14px 16px;
+    border-radius: 0 8px 8px 0;
+    margin: 14px 0;
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  .callout.warn {
+    background: var(--accent-soft);
+    border-left-color: var(--accent);
+  }
+  .callout b { color: var(--ink); }
+
+  /* ===== FOOTER ===== */
+  footer {
+    text-align: center;
+    padding: 32px 24px 48px;
+    color: var(--ink-mute);
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0.05em;
+  }
+  footer .quote {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: var(--ink-soft);
+    max-width: 540px;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+  }
+
+  /* Scrollbar dark */
+  [data-theme="dark"] ::-webkit-scrollbar { width: 10px; height: 10px; }
+  [data-theme="dark"] ::-webkit-scrollbar-track { background: var(--bg); }
+  [data-theme="dark"] ::-webkit-scrollbar-thumb { background: var(--line); border-radius: 5px; }
+  [data-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: var(--ink-mute); }
+
+  ::selection { background: var(--glacier); color: var(--bg); }
+
+  /* ===== MOBILE ===== */
+  @media (max-width: 600px) {
+    header.hero { padding: 40px 18px 24px; }
+    main { padding: 24px 14px 60px; }
+    .section-header { padding: 16px 18px 12px; }
+    .section-body { padding: 6px 18px 16px; }
+    .progress-bar { padding: 10px 12px; gap: 8px; }
+    .progress-text { font-size: 11px; }
+    .reset-btn { padding: 6px 8px; font-size: 11px; }
+    .icon-btn { width: 30px; height: 30px; }
+    .item-label { font-size: 14px; }
+  }
+
+  /* ===== PRINT / PDF EXPORT ===== */
+  @media print {
+    /* Force light, printable look — independent of current theme */
+    :root, [data-theme="dark"], [data-theme="light"] {
+      --bg: #ffffff;
+      --bg-2: #f5f5f5;
+      --paper: #ffffff;
+      --ink: #000000;
+      --ink-soft: #333333;
+      --ink-mute: #666666;
+      --line: #cccccc;
+      --line-soft: #e5e5e5;
+      --glacier: #2a5670;
+      --glacier-soft: #eef4f7;
+      --accent: #b53030;
+      --accent-soft: #fbe9e9;
+      --pine: #2c4a2b;
+      --done: #999999;
+      --shadow: none;
+      --check-on-fill: #ffffff;
+    }
+    body {
+      background: #fff !important;
+      background-image: none !important;
+      color: #000;
+      font-size: 11pt;
+    }
+    .progress-bar,
+    .toolbar,
+    footer .quote {
+      display: none !important;
+    }
+    header.hero {
+      padding: 12pt 0 8pt;
+      border-bottom: 1.5pt solid #000;
+      background: none;
+      page-break-after: avoid;
+    }
+    header.hero::before { display: none; }
+    h1 { font-size: 24pt; margin-bottom: 6pt; color: #000 !important; }
+    h1 em { color: #2a5670 !important; }
+    .subtitle { font-size: 10pt; color: #333 !important; }
+    .meta-line { margin-top: 6pt; font-size: 9pt; }
+    main { padding: 12pt 0 0; max-width: 100%; }
+    .section {
+      box-shadow: none;
+      border: 1pt solid #999;
+      margin-bottom: 8pt;
+      page-break-inside: avoid;
+      border-radius: 4pt;
+    }
+    .section-header {
+      padding: 6pt 10pt 4pt;
+      page-break-after: avoid;
+    }
+    .section-title { font-size: 13pt; }
+    .section-body { padding: 4pt 10pt 6pt; }
+    .item {
+      padding: 3pt 0;
+      page-break-inside: avoid;
+    }
+    .item:hover { background: none; }
+    .item input[type="checkbox"] {
+      width: 12pt; height: 12pt; min-width: 12pt;
+      border: 1pt solid #000 !important;
+      background: #fff !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .item input[type="checkbox"]:checked {
+      background: #2a5670 !important;
+      border-color: #2a5670 !important;
+    }
+    .item input[type="checkbox"]:checked::after {
+      border-color: #fff !important;
+      left: 3pt; top: 0.5pt;
+      width: 4pt; height: 8pt;
+    }
+    .item-label { font-size: 10pt; color: #000 !important; }
+    .item-label .hint { font-size: 8.5pt; color: #555 !important; }
+    .item.checked .item-label { opacity: 1; color: #666 !important; }
+    .callout {
+      page-break-inside: avoid;
+      font-size: 9pt;
+      padding: 6pt 8pt;
+    }
+    footer {
+      padding: 8pt 0;
+      font-size: 8pt;
+    }
+    a { color: inherit; text-decoration: none; }
+    @page {
+      margin: 12mm 10mm;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow">Coudoux Team · TMB · Juin 2026</div>
+  <h1>Checklist <em>Tour du Mont Blanc</em></h1>
+  <p class="subtitle">5 jours en refuges · 151 km · 9 100 m D+ · Sac &lt; 10 kg · Légèreté = performance.</p>
+  <div class="meta-line">
+    <span><b>5</b> randonneurs</span>
+    <span><b>5</b> nuits refuges</span>
+    <span>Cible <b>&lt; 10 kg</b></span>
+  </div>
+</header>
+
+<div class="progress-bar">
+  <div class="progress-text"><b id="progress-count">0</b> / <span id="progress-total">0</span> · <b id="progress-percent">0%</b></div>
+  <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+  <div class="toolbar">
+    <button class="icon-btn" id="theme-toggle" title="Basculer thème clair/sombre" aria-label="Basculer thème">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="4"/>
+        <line x1="12" y1="2.5" x2="12" y2="5"/>
+        <line x1="12" y1="19" x2="12" y2="21.5"/>
+        <line x1="2.5" y1="12" x2="5" y2="12"/>
+        <line x1="19" y1="12" x2="21.5" y2="12"/>
+        <line x1="5.4" y1="5.4" x2="7.2" y2="7.2"/>
+        <line x1="16.8" y1="16.8" x2="18.6" y2="18.6"/>
+        <line x1="5.4" y1="18.6" x2="7.2" y2="16.8"/>
+        <line x1="16.8" y1="7.2" x2="18.6" y2="5.4"/>
+      </svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+    </button>
+    <button class="icon-btn" id="pdf-btn" title="Exporter en PDF (impression)" aria-label="Exporter PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M6 9V3h12v6"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8" rx="1"/>
+      </svg>
+    </button>
+    <button class="reset-btn" id="reset-btn">Reset</button>
+  </div>
+</div>
+
+<main id="checklist">
+
+  <!-- 01 - VÊTEMENTS -->
+  <section class="section" data-section="vetements">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2 class="section-title">Vêtements &amp; Chaussures</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+      <p class="subgroup-note">Cible 2–2,5 kg. Privilégier <strong>mérinos</strong> ou synthétique séchage rapide. Pas de coton.</p>
+
+      <div class="subgroup">
+        <div class="subgroup-title">À porter le jour du départ</div>
+        <label class="item"><input type="checkbox" data-id="v-port-chauss"><span class="item-label">Chaussures de rando testées (1 paire)<span class="hint">Test 30 km minimum avant départ — non négociable.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="v-port-socks"><span class="item-label">Chaussettes rando (1 paire)</span></label>
+        <label class="item"><input type="checkbox" data-id="v-port-pantalon"><span class="item-label">Pantalon ou short de rando (1)</span></label>
+        <label class="item"><input type="checkbox" data-id="v-port-tshirt"><span class="item-label">T-shirt technique (1)</span></label>
+        <label class="item"><input type="checkbox" data-id="v-port-veste"><span class="item-label">Veste imperméable (1)<span class="hint">Hardshell léger, respirant, capuche réglable.</span></span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Dans le sac — strict minimum</div>
+        <label class="item"><input type="checkbox" data-id="v-sac-tshirt"><span class="item-label">T-shirt technique de rechange (1)<span class="hint">Lavage à la main chaque soir au refuge.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="v-sac-socks"><span class="item-label">Chaussettes rando (2 paires de rechange)</span></label>
+        <label class="item"><input type="checkbox" data-id="v-sac-merino"><span class="item-label">Sous-vêtements chauds mérinos (1)<span class="hint">Mérinos &gt; synthétique pour les odeurs.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="v-sac-culottes"><span class="item-label">Caleçons / culottes (3)</span></label>
+        <label class="item"><input type="checkbox" data-id="v-sac-bonnet"><span class="item-label">Bonnet mérinos léger (1)</span></label>
+        <label class="item"><input type="checkbox" data-id="v-sac-gants"><span class="item-label">Gants légers (1 paire)</span></label>
+        <label class="item"><input type="checkbox" data-id="v-sac-camp"><span class="item-label">Chaussons / sandalettes refuge (1 paire)<span class="hint">Indispensable pour le confort en refuge.</span></span></label>
+      </div>
+
+      <div class="callout warn">
+        <b>À laisser à Chamonix</b> : habits civils, chaussures de ville, vêtements en plus. Personne ne vous regarde au refuge.
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 - ÉQUIPEMENT -->
+  <section class="section" data-section="equipement">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2 class="section-title">Équipement &amp; Matériel</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+
+      <div class="subgroup">
+        <div class="subgroup-title">Sac &amp; transport</div>
+        <label class="item"><input type="checkbox" data-id="e-sac-dos"><span class="item-label"><strong>Sac à dos ultralight 45–55 L</strong><span class="hint">Cible 1,2–1,5 kg. La taille force l'autodiscipline.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="e-housse"><span class="item-label">Housse pluie (intégrée ou séparée)</span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Navigation &amp; sécurité</div>
+        <label class="item"><input type="checkbox" data-id="e-batons"><span class="item-label">Bâtons pliables (300–400 g la paire)<span class="hint">Économie -30 % énergie en descente. Obligatoire ici.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="e-gps"><span class="item-label">Traces GPS téléchargées offline<span class="hint">Komoot / AllTrails / Fatmap — sur 2 téléphones minimum.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="e-ign"><span class="item-label">Cartes IGN papier (backup)</span></label>
+        <label class="item"><input type="checkbox" data-id="e-couteau"><span class="item-label">Couteau suisse mini (30 g)</span></label>
+        <label class="item"><input type="checkbox" data-id="e-corde"><span class="item-label">Cordelette paracorde 5 m <em>(optionnel)</em></span></label>
+        <label class="item"><input type="checkbox" data-id="e-sifflet"><span class="item-label">Sifflet de secours <em>(souvent intégré au sac)</em></span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Conditions montagne</div>
+        <label class="item"><input type="checkbox" data-id="e-crampons"><span class="item-label">Crampons légers <em>(si neige résiduelle annoncée)</em><span class="hint">Vérifier prévisions J-7. Sinon, skip.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="e-survie"><span class="item-label">Couverture de survie (40 g) — toujours utile</span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Éclairage</div>
+        <label class="item"><input type="checkbox" data-id="e-lampe"><span class="item-label">Lampe frontale légère, chargée<span class="hint">Utile pour J4 (départ 5h30) et urgences. Pas en option.</span></span></label>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 03 - HYGIÈNE -->
+  <section class="section" data-section="hygiene">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2 class="section-title">Hygiène &amp; Toilettes</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+      <p class="subgroup-note">Refuges = douche + savon + papier toilette fournis. Objectif total : <strong>&lt; 500 g</strong>.</p>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Hygiène personnelle</div>
+        <label class="item"><input type="checkbox" data-id="h-savon"><span class="item-label">Savon mini 2-en-1 (20 g)<span class="hint">Corps + cheveux. Format solide de préférence.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="h-dents"><span class="item-label">Brosse à dents + dentifrice mini (30 g)</span></label>
+        <label class="item"><input type="checkbox" data-id="h-serviette"><span class="item-label">Serviette microfibre ultralight (60 g)</span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Soleil &amp; lèvres</div>
+        <label class="item"><input type="checkbox" data-id="h-solaire"><span class="item-label"><strong>Crème solaire stick SPF 50</strong> (30 g)<span class="hint">Stick &gt; tube. Réflexion neige = brûlure express.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="h-levres"><span class="item-label">Baume lèvres SPF (10 g)</span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Salle de bain</div>
+        <label class="item"><input type="checkbox" data-id="h-pq"><span class="item-label">Petit rouleau PQ + sac zip imperméable<span class="hint">Pour les arrêts en pleine nature.</span></span></label>
+      </div>
+
+      <div class="callout">
+        <b>À skip</b> : déodorant, gel mains, parfum, shampoing séparé. La transpiration en montagne est <em>normale</em>.
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 - SANTÉ -->
+  <section class="section" data-section="sante">
+    <div class="section-header">
+      <span class="section-number">04</span>
+      <h2 class="section-title">Santé &amp; Secours</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+      <p class="subgroup-note">Kit minimal viable : <strong>~ 200 g</strong>. Ce qui est listé est critique, pas négociable.</p>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Traitement plaies &amp; ampoules</div>
+        <label class="item"><input type="checkbox" data-id="s-pansements"><span class="item-label">Pansements assortis (boîte de 8)</span></label>
+        <label class="item"><input type="checkbox" data-id="s-sparadrap"><span class="item-label">Sparadrap 1 cm × 2 m</span></label>
+        <label class="item"><input type="checkbox" data-id="s-ampoules"><span class="item-label"><strong>Pommade anti-ampoules / Compeed</strong> (15 g)<span class="hint">CRITIQUE. Une ampoule mal gérée = fin du trek.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="s-antiinflam"><span class="item-label">Crème anti-inflammatoire (tube mini)</span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Médicaments</div>
+        <label class="item"><input type="checkbox" data-id="s-para"><span class="item-label">Paracétamol (5 comprimés)</span></label>
+        <label class="item"><input type="checkbox" data-id="s-ibu"><span class="item-label">Ibuprofène (5 comprimés)<span class="hint">À utiliser avec parcimonie, jamais à jeun.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="s-diarrhée"><span class="item-label">Anti-diarrhée (3 comprimés)</span></label>
+        <label class="item"><input type="checkbox" data-id="s-electro"><span class="item-label">Électrolytes en comprimés (5)</span></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 - HYDRATATION & NUTRITION -->
+  <section class="section" data-section="nutrition">
+    <div class="section-header">
+      <span class="section-number">05</span>
+      <h2 class="section-title">Hydratation &amp; Nutrition</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+      <p class="subgroup-note">Petits-déj + dîners fournis en refuge. Vous ne portez que <strong>snacks + hydratation</strong>.</p>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Hydratation</div>
+        <label class="item"><input type="checkbox" data-id="n-gourde"><span class="item-label"><strong>Gourde 1 L</strong> (pas 2 L)<span class="hint">Refill aux refuges et fontaines. -500 g sur le sac.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="n-filtre"><span class="item-label">Pastilles ou mini-filtre <em>(optionnel)</em></span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Snacks de marche</div>
+        <label class="item"><input type="checkbox" data-id="n-barres"><span class="item-label">Barres énergétiques (5 max)</span></label>
+        <label class="item"><input type="checkbox" data-id="n-raisins"><span class="item-label">Raisins secs (200 g)</span></label>
+        <label class="item"><input type="checkbox" data-id="n-abricots"><span class="item-label">Abricots secs (100 g)</span></label>
+        <label class="item"><input type="checkbox" data-id="n-amandes"><span class="item-label">Amandes (150 g)</span></label>
+        <label class="item"><input type="checkbox" data-id="n-gels"><span class="item-label">Gels énergétiques (2–3, surtout pour J4)</span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Électrolytes &amp; moral</div>
+        <label class="item"><input type="checkbox" data-id="n-poudre"><span class="item-label"><strong>Électrolytes en poudre</strong> (3–5 sachets)<span class="hint">Plus important que les barres. Prévient crampes et coups de chaud.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="n-choco"><span class="item-label">Chocolat noir 70 % (1 barre)<span class="hint">Pour le moral. Indispensable.</span></span></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 - DOCUMENTS -->
+  <section class="section" data-section="documents">
+    <div class="section-header">
+      <span class="section-number">06</span>
+      <h2 class="section-title">Documents &amp; Électronique</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+
+      <div class="subgroup">
+        <div class="subgroup-title">Essentiels</div>
+        <label class="item"><input type="checkbox" data-id="d-id"><span class="item-label"><strong>Passeport ou CNI</strong><span class="hint">Trois frontières : France · Italie · Suisse.</span></span></label>
+        <label class="item"><input type="checkbox" data-id="d-assurance"><span class="item-label"><strong>Assurance rapatriement montagne</strong><span class="hint">Vérifier : hélicoptère inclus ? (Chapka, Europ Assistance...).</span></span></label>
+        <label class="item"><input type="checkbox" data-id="d-phone"><span class="item-label">Téléphone chargé 100 %</span></label>
+        <label class="item"><input type="checkbox" data-id="d-battery"><span class="item-label">Batterie externe (max 150 g)</span></label>
+      </div>
+
+      <div class="subgroup">
+        <div class="subgroup-title">Navigation &amp; notes</div>
+        <label class="item"><input type="checkbox" data-id="d-traces"><span class="item-label">Traces GPS offline sur tous les téléphones</span></label>
+        <label class="item"><input type="checkbox" data-id="d-papier"><span class="item-label">Cartes IGN papier (2 copies)</span></label>
+        <label class="item"><input type="checkbox" data-id="d-carnet"><span class="item-label">Carnet + stylo (contacts urgence, notes)</span></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 - DIVERS -->
+  <section class="section" data-section="divers">
+    <div class="section-header">
+      <span class="section-number">07</span>
+      <h2 class="section-title">Divers</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+      <label class="item"><input type="checkbox" data-id="x-lunettes"><span class="item-label">Lunettes de soleil cat. 3 ou 4<span class="hint">Critique en altitude / neige.</span></span></label>
+      <label class="item"><input type="checkbox" data-id="x-sacs-impermeables"><span class="item-label">2 sacs zip imperméables (linge humide)</span></label>
+      <label class="item"><input type="checkbox" data-id="x-poubelle"><span class="item-label">3 sacs poubelle légers</span></label>
+      <label class="item"><input type="checkbox" data-id="x-epingles"><span class="item-label">2 épingles de sûreté</span></label>
+    </div>
+  </section>
+
+  <!-- 08 - VÉRIFICATION FINALE -->
+  <section class="section" data-section="verif">
+    <div class="section-header">
+      <span class="section-number">08</span>
+      <h2 class="section-title">Vérification finale — J-7</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+      <label class="item"><input type="checkbox" data-id="vf-poids"><span class="item-label"><strong>Sac pesé &lt; 10 kg</strong> (pesée obligatoire)</span></label>
+      <label class="item"><input type="checkbox" data-id="vf-chaussures"><span class="item-label">Chaussures testées 25 km minimum</span></label>
+      <label class="item"><input type="checkbox" data-id="vf-gps"><span class="item-label">GPS offline téléchargé (pas que en ligne)</span></label>
+      <label class="item"><input type="checkbox" data-id="vf-autonomie"><span class="item-label">Autonomie téléphone testée (8h+)</span></label>
+      <label class="item"><input type="checkbox" data-id="vf-battery"><span class="item-label">Batterie externe chargée à 100 %</span></label>
+      <label class="item"><input type="checkbox" data-id="vf-refuges"><span class="item-label">Refuges confirmés (appel ou e-mail)</span></label>
+      <label class="item"><input type="checkbox" data-id="vf-assurance"><span class="item-label">Assurance rapatriement vérifiée</span></label>
+      <label class="item"><input type="checkbox" data-id="vf-hotel"><span class="item-label">Hôtel Chamonix J0 + J5 confirmés</span></label>
+      <label class="item"><input type="checkbox" data-id="vf-traces-papier"><span class="item-label">Traces papier imprimées (2 copies)</span></label>
+      <label class="item"><input type="checkbox" data-id="vf-contacts"><span class="item-label">Contacts d'urgence notés (PGHM, refuges)</span></label>
+    </div>
+  </section>
+
+  <!-- 09 - J4 -->
+  <section class="section" data-section="j4">
+    <div class="section-header">
+      <span class="section-number">09</span>
+      <h2 class="section-title">Étape reine — J4 (Fenêtre d'Arpette)</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+      <p class="subgroup-note">Étape la plus exigeante du TMB. Météo non négociable. <strong>Plan B = Col de la Forclaz</strong>.</p>
+      <label class="item"><input type="checkbox" data-id="j4-depart"><span class="item-label">Départ 5h30–6h impératif</span></label>
+      <label class="item"><input type="checkbox" data-id="j4-meteo"><span class="item-label"><strong>Météo vérifiée la veille au soir</strong><span class="hint">Si orage / mauvais temps : Forclaz, sans débat.</span></span></label>
+      <label class="item"><input type="checkbox" data-id="j4-petitdej"><span class="item-label">Petit-déjeuner énergétique massif</span></label>
+      <label class="item"><input type="checkbox" data-id="j4-electro"><span class="item-label">Électrolytes en extra (3 sachets)</span></label>
+      <label class="item"><input type="checkbox" data-id="j4-gels"><span class="item-label">Gels énergétiques (2–3)</span></label>
+      <label class="item"><input type="checkbox" data-id="j4-planb"><span class="item-label">Plan B Col de la Forclaz briefé en équipe</span></label>
+    </div>
+  </section>
+
+  <!-- 10 - DÉPART -->
+  <section class="section" data-section="depart">
+    <div class="section-header">
+      <span class="section-number">10</span>
+      <h2 class="section-title">Jour du départ — J0</h2>
+      <span class="section-count" data-count></span>
+    </div>
+    <div class="section-body">
+      <label class="item"><input type="checkbox" data-id="dep-poids"><span class="item-label">Sac pesé &lt; 10 kg ✅</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-phone"><span class="item-label">Téléphone chargé 100 %</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-battery"><span class="item-label">Batterie externe chargée</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-gps"><span class="item-label">Traces GPS offline téléchargées</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-docs"><span class="item-label">Passeport + assurance dans le sac</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-socks"><span class="item-label">Chaussettes vérifiées (le piège classique)</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-eat"><span class="item-label">Bon petit-déjeuner</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-sleep"><span class="item-label">8 h de sommeil la veille</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-meteo"><span class="item-label">Météo J1 vérifiée</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-refuges"><span class="item-label">Refuges reconfirmés (SMS/appel)</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-team"><span class="item-label">Équipe au complet (5 / 5)</span></label>
+      <label class="item"><input type="checkbox" data-id="dep-moral"><span class="item-label">Moral ✅</span></label>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="quote">« La légèreté est une stratégie, pas une obsession. »</div>
+  Team Coudoux · TMB Juin 2026 · Bon trek 🏔️
+</footer>
+
+<script>
+(function() {
+  'use strict';
+  const STORAGE_KEY = 'tmb-checklist-coudoux-v1';
+  const THEME_KEY = 'tmb-theme';
+
+  const checklist = document.getElementById('checklist');
+  const checkboxes = checklist.querySelectorAll('input[type="checkbox"]');
+  const progressFill = document.getElementById('progress-fill');
+  const progressCount = document.getElementById('progress-count');
+  const progressTotal = document.getElementById('progress-total');
+  const progressPercent = document.getElementById('progress-percent');
+  const resetBtn = document.getElementById('reset-btn');
+  const themeToggle = document.getElementById('theme-toggle');
+  const pdfBtn = document.getElementById('pdf-btn');
+
+  // ===== Theme toggle =====
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    try { localStorage.setItem(THEME_KEY, theme); } catch (e) {}
+  }
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme') || 'dark';
+    setTheme(current === 'dark' ? 'light' : 'dark');
+  });
+
+  // ===== PDF export via native print (browser "Save as PDF") =====
+  pdfBtn.addEventListener('click', () => {
+    window.print();
+  });
+
+  // ===== Checklist state =====
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return {};
+      return JSON.parse(raw);
+    } catch (e) {
+      console.warn('TMB checklist: corrupted storage, resetting', e);
+      return {};
+    }
+  }
+
+  function saveState(state) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {
+      console.error('TMB checklist: could not save', e);
+    }
+  }
+
+  let state = loadState();
+
+  function applyState() {
+    checkboxes.forEach(cb => {
+      const id = cb.dataset.id;
+      const checked = !!state[id];
+      cb.checked = checked;
+      cb.closest('.item').classList.toggle('checked', checked);
+    });
+    updateProgress();
+  }
+
+  function updateProgress() {
+    const total = checkboxes.length;
+    let done = 0;
+    checkboxes.forEach(cb => { if (cb.checked) done++; });
+    const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+    progressFill.style.width = pct + '%';
+    progressCount.textContent = done;
+    progressTotal.textContent = total;
+    progressPercent.textContent = pct + '%';
+
+    document.querySelectorAll('.section').forEach(section => {
+      const boxes = section.querySelectorAll('input[type="checkbox"]');
+      const checked = section.querySelectorAll('input[type="checkbox"]:checked');
+      const badge = section.querySelector('[data-count]');
+      if (badge) {
+        badge.textContent = checked.length + ' / ' + boxes.length;
+        badge.classList.toggle('complete', checked.length === boxes.length && boxes.length > 0);
+      }
+    });
+  }
+
+  checkboxes.forEach(cb => {
+    cb.addEventListener('change', () => {
+      const id = cb.dataset.id;
+      if (cb.checked) state[id] = true;
+      else delete state[id];
+      saveState(state);
+      cb.closest('.item').classList.toggle('checked', cb.checked);
+      updateProgress();
+    });
+  });
+
+  resetBtn.addEventListener('click', () => {
+    const done = Object.keys(state).length;
+    if (done === 0) return;
+    const ok = confirm('Réinitialiser la checklist ?\n' + done + ' item(s) coché(s) seront perdus.');
+    if (!ok) return;
+    state = {};
+    saveState(state);
+    applyState();
+  });
+
+  applyState();
+})();
+</script>
+
+</body>
+</html>
