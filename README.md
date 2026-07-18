@@ -134,14 +134,14 @@
 
 ### 🗓️ Étape par étape (réel)
 
-| Étape | Parcours | Distance | D+ | Mouvement | Total | GPX |
-|---|---|---|---|---|---|---|
-| **J1** — Dim 14/06 | Les Houches 🇫🇷 → Refuge des Prés 🇫🇷 | 28,4 km | 2 332 m | 8h30 | 9h44 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J1.gpx) |
-| **J2** — Lun 15/06 | Refuge des Prés 🇫🇷 → Courmayeur 🇮🇹 | 38,3 km | 2 242 m | 10h49 | 12h41 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J2.gpx) |
-| **J3** — Mar 16/06 | Courmayeur 🇮🇹 → La Fouly 🇨🇭 | 33,5 km | 2 161 m | 8h36 | 10h02 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J3.gpx) |
-| **J4** — Mer 17/06 | La Fouly 🇨🇭 → Trient 🇨🇭 | 32,6 km | 1 421 m | 8h22 | 9h47 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J4.gpx) |
-| **J5** — Jeu 18/06 | Trient 🇨🇭 → Les Houches 🇫🇷 🏁 | 35,2 km | 1 263 m | 8h49 | 10h20 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J5_Finish.gpx) |
-| **Total** | Les Houches 🇫🇷 → Les Houches 🇫🇷 | **168 km** | **9 419 m** | **45h07** | — | [📥](./assets/gpx/Tour_du_Mont_Blanc_2026.gpx) |
+| Étape | Parcours | Distance | D+ | D- | Mouvement | Total | GPX |
+|---|---|---|---|---|---|---|---|
+| **J1** — Dim 14/06 | Les Houches 🇫🇷 → Refuge des Prés 🇫🇷 | 28,4 km | 2 332 m | 1 435 m | 8h30 | 9h44 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J1.gpx) |
+| **J2** — Lun 15/06 | Refuge des Prés 🇫🇷 → Courmayeur 🇮🇹 | 38,3 km | 2 242 m | 2 967 m | 10h49 | 12h41 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J2.gpx) |
+| **J3** — Mar 16/06 | Courmayeur 🇮🇹 → La Fouly 🇨🇭 | 33,5 km | 2 161 m | 1 775 m | 8h36 | 10h02 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J3.gpx) |
+| **J4** — Mer 17/06 | La Fouly 🇨🇭 → Trient 🇨🇭 | 32,6 km | 1 421 m | 1 743 m | 8h22 | 9h47 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J4.gpx) |
+| **J5** — Jeu 18/06 | Trient 🇨🇭 → Les Houches 🇫🇷 🏁 | 35,2 km | 1 263 m | 1 542 m | 8h49 | 10h20 | [📥](./assets/gpx/Tour_du_Mont_Blanc_J5_Finish.gpx) |
+| **Total** | Les Houches 🇫🇷 → Les Houches 🇫🇷 | **168 km** | **9 419 m** | **9 462 m** | **45h07** | — | [📥](./assets/gpx/Tour_du_Mont_Blanc_2026.gpx) |
 
 ---
 
